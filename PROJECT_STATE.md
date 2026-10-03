@@ -60,6 +60,8 @@ No backend or frontend logic, schema, or endpoint was changed in Phase 3. One da
 
 ## Commands to run the full project
 
+These commands document the local development and verification setup. To use the deployed application without running the project locally, open https://capability-composition-ml-1.onrender.com.
+
 From repository root in PowerShell, install dependencies:
 
 ```powershell

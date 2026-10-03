@@ -6,6 +6,8 @@ Capability Composition is a local analysis tool for formal application scenarios
 
 ## 2. Start the project
 
+> This manual covers running the project locally for development or inspection. If you just want to use the live application, see the Live Demo link in the main [README](../README.md) — you don't need anything on this page to do that.
+
 Use PowerShell from the repository root. Install the backend and frontend dependencies:
 
 ```powershell
@@ -71,6 +73,8 @@ npm.cmd run build
 ```
 
 ## 9. Troubleshooting
+
+The local backend checks below apply when running the project locally. For normal app use, open the [live application](https://capability-composition-ml-1.onrender.com).
 
 | Symptom | Check |
 |---|---|

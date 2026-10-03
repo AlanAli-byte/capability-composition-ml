@@ -4,6 +4,8 @@ The backend implements the formal models, named sparse embedding, symbolic compa
 
 ## Setup and commands
 
+These instructions are for backend development and API inspection. To use the deployed application, open https://capability-composition-ml-1.onrender.com; no local setup is needed.
+
 From the repository root, create a virtual environment and install dependencies:
 
 ```powershell

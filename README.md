@@ -44,6 +44,8 @@ docs/                     Design, architecture, reports, and user documentation
 
 ## Installation and run
 
+The steps below are for running the project locally — for example, to modify the code or inspect it in detail. If you just want to use the deployed app, use the [Live Demo](#live-demo) link at the top instead; you can skip to [Project structure](#project-structure) or [Mathematical ideas](#mathematical-ideas).
+
 I use PowerShell from the repository root. Install backend dependencies and frontend dependencies:
 
 ```powershell

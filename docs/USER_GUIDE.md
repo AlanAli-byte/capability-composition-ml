@@ -2,10 +2,13 @@
 
 ## Quick start: see a result in under two minutes
 
-1. Open the app at `http://127.0.0.1:5173/` while the backend is running.
-2. Select **Scenario editor** in the sidebar, then keep **Example Scenarios** selected.
-3. On **Level 2 · Compatible pair**, click **Load & Run**.
-4. The app loads that example into the active backend scenario, opens **Experiments**, and runs the groups automatically. Look for `create-order → make-payment` as a compatible pair. The three-capability, alternative, and operational groups show skip reasons because this example has two capabilities and no alternative group.
+**Fastest path:** open the live app at https://capability-composition-ml-1.onrender.com and continue with the first step below.
+
+**Running it locally instead?** Start the backend and frontend first (see [Setup and detailed user manual](USER_MANUAL.md)), then open `http://127.0.0.1:5173/` and follow the steps below.
+
+1. Select **Scenario editor** in the sidebar, then keep **Example Scenarios** selected.
+2. On **Level 2 · Compatible pair**, click **Load & Run**.
+3. The app loads that example into the active backend scenario, opens **Experiments**, and runs the groups automatically. Look for `create-order → make-payment` as a compatible pair. The three-capability, alternative, and operational groups show skip reasons because this example has two capabilities and no alternative group.
 
 The experiment report is calculated by the backend from the loaded scenario; it is not a canned screen.
 
