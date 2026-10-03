@@ -13,7 +13,11 @@ from app.services.formal_logic import satisfies, state_satisfies_goal
 
 app = FastAPI(title="Capability Composition Embedding API", version="1.0.0",
               description="Explainable structured embeddings, compatibility, and composition; no path planning.")
-app.add_middleware(CORSMiddleware, allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+app.add_middleware(CORSMiddleware, allow_origins=[
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "https://capability-composition-ml-1.onrender.com",
+],
                    allow_credentials=True, allow_methods=["*"], allow_headers=["*"])
 encoder = EmbeddingEncoder()
 scenario = load_default_scenario()
