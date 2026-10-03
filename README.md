@@ -1,3 +1,12 @@
+## Live Demo
+
+**App (use this one):** [https://capability-composition-ml-1.onrender.com](https://capability-composition-ml-1.onrender.com)
+
+**API (used internally by the app, not meant for direct browsing):**
+[https://capability-composition-ml.onrender.com](https://capability-composition-ml.onrender.com) — interactive reference at [https://capability-composition-ml.onrender.com/docs](https://capability-composition-ml.onrender.com/docs).
+
+The first link is the actual website. The second is the backend API the website talks to behind the scenes; open it directly only if you want to poke at the raw endpoints.
+
 # Capability Composition Embedding
 
 I built this project to explore the assignment's central question: how can application states, goals, and capabilities be represented so that resemblance, compatibility, and composition can be computed from formal descriptions instead of only being described? The backend computes embeddings, compatibility, composition, and experiment results; the React interface displays and edits the active scenario.
@@ -97,6 +106,8 @@ I know feature names are literal, so synonyms do not match. Compatibility suppor
 
 ## Contributor
 
-Alan P Ali
+**Alan P Ali**
+
 TCR24CS008
+
 CSE/S5
